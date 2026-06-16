@@ -5,9 +5,9 @@
     "model__alpha": 0.1
   },
   "time_series_cv_avg_metrics": {
-    "mae": 0.401919887598353,
-    "rmse": 0.45183017069351167,
-    "mape": 0.44310001887085787,
+    "mae": 0.4019198875983538,
+    "rmse": 0.4518301706935177,
+    "mape": 0.44310001887085937,
     "r2": 0.9989768685471123
   },
   "cv_strategy": "expanding-window monthly validation",

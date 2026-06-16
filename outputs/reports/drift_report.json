@@ -54,8 +54,8 @@
       "feature": "month_sin",
       "psi": 6.242877895844765,
       "status": "high",
-      "baseline_mean": -7.868804024511083e-18,
-      "current_mean": -0.6220084679281461
+      "baseline_mean": -8.63979223605633e-18,
+      "current_mean": -0.6220084679281462
     },
     {
       "feature": "month_cos",
