@@ -1,0 +1,83 @@
+{
+  "baseline_end": "2024-12-01",
+  "current_start": "2025-07-01",
+  "method": "population_stability_index",
+  "thresholds": {
+    "stable": "<0.10",
+    "moderate": "0.10-0.25",
+    "high": ">=0.25"
+  },
+  "features": [
+    {
+      "feature": "lag_1",
+      "psi": 2.352649637012097,
+      "status": "high",
+      "baseline_mean": 80.81944444444444,
+      "current_mean": 88.91666666666667
+    },
+    {
+      "feature": "lag_3",
+      "psi": 0.4319562980714834,
+      "status": "high",
+      "baseline_mean": 79.93055555555556,
+      "current_mean": 83.08333333333333
+    },
+    {
+      "feature": "lag_6",
+      "psi": 0.3145432875164502,
+      "status": "high",
+      "baseline_mean": 78.56944444444444,
+      "current_mean": 81.75
+    },
+    {
+      "feature": "lag_12",
+      "psi": 3.381525005091412,
+      "status": "high",
+      "baseline_mean": 75.83333333333333,
+      "current_mean": 86.30555555555556
+    },
+    {
+      "feature": "rolling_3",
+      "psi": 0.17383454093452383,
+      "status": "moderate",
+      "baseline_mean": 80.37962962962963,
+      "current_mean": 85.94444444444443
+    },
+    {
+      "feature": "rolling_6",
+      "psi": 2.548302267577603,
+      "status": "high",
+      "baseline_mean": 79.70370370370371,
+      "current_mean": 83.63888888888889
+    },
+    {
+      "feature": "month_sin",
+      "psi": 6.242877895844765,
+      "status": "high",
+      "baseline_mean": -7.868804024511083e-18,
+      "current_mean": -0.6220084679281461
+    },
+    {
+      "feature": "month_cos",
+      "psi": 3.00590378037233,
+      "status": "high",
+      "baseline_mean": -4.5726687344757515e-17,
+      "current_mean": 0.16666666666666652
+    },
+    {
+      "feature": "trend_index",
+      "psi": 11.561538276029477,
+      "status": "high",
+      "baseline_mean": 18.5,
+      "current_mean": 33.5
+    },
+    {
+      "feature": "EnrollmentCount",
+      "psi": 2.689039682529321,
+      "status": "high",
+      "baseline_mean": 81.27777777777777,
+      "current_mean": 91.66666666666667
+    }
+  ],
+  "overall_status": "high"
+}

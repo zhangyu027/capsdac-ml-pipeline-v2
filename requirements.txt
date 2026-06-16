@@ -1,0 +1,14 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+joblib
+pyyaml
+streamlit
+pyarrow
+pytest
+fastapi
+uvicorn
+google-cloud-aiplatform
+google-cloud-bigquery
+google-cloud-storage

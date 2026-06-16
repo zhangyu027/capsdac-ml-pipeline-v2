@@ -1,0 +1,16 @@
+{
+  "package_level": "Level 2 ML-enabled data platform",
+  "selected_model_name": "ridge_regression",
+  "selected_params": {
+    "model__alpha": 0.1
+  },
+  "time_series_cv_avg_metrics": {
+    "mae": 0.401919887598353,
+    "rmse": 0.45183017069351167,
+    "mape": 0.44310001887085787,
+    "r2": 0.9989768685471123
+  },
+  "cv_strategy": "expanding-window monthly validation",
+  "train_target": "EnrollmentCount",
+  "model_artifact": "models/capsdac_level2_best_forecast_model.joblib"
+}
